@@ -1,0 +1,130 @@
+/* CSS RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* MY STYLING */
+body {
+  font-family: 'Philosopher', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  padding-bottom: 70px;
+  font-size: 50px;
+  color: #761a1a;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  box-shadow: 1px 1px 5px 2px #9ba6a5;
+}
+
+#main-div {
+  text-align: center;
+}
+
+button {
+  font-family: 'Philosopher', sans-serif;
+  color: #11144c;
+  margin-top: 50px;
+  padding: 20px 50px;
+  font-size: 25px;
+  border: 0;
+  border-radius: 10px;
+  background: linear-gradient(#d3d6db, #9ba6a5);
+  box-shadow: 1px 1px 5px 2px #9ba6a5;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Philosopher', sans-serif;
+}
+
+a {
+  color: #11144c;
+  cursor: pointer;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 665px) {
+  #images {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    justify-self: center;
+  }
+
+  button {
+    padding: 5px 50px;
+  }
+
+  footer {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  body {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

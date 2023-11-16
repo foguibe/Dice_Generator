@@ -1,0 +1,39 @@
+This dice generator project demonstrates a variety of skills, including HTML markup, CSS styling, and JavaScript functionality. Here's a detailed outline of the skills demonstrated in this project:
+
+1. HTML Markup:
+   - Proper use of HTML5 document structure with `<!DOCTYPE html>` declaration.
+   - Semantic HTML elements like `<html>`, `<head>`, `<body>`, `<main>`, `<footer>`, `<button>`, and `<img>` are used appropriately.
+   - Setting the document language with `lang="en"`.
+   - Including meta tags for character set and viewport settings.
+   - Links to external stylesheets (`styles.css`) and JavaScript file (`script.js`).
+
+2. CSS Styling:
+   - Use of CSS reset to normalize default browser styles.
+   - Styling the body with a specific font-family and a minimum height of 100% of the viewport height.
+   - Flexbox is utilized for centering content vertically within the main section.
+   - Grid layout (`#images`) to organize and style the dice images in a two-column format.
+   - Styling for images with a fixed width, height, and box shadow.
+   - Stylized button with a gradient background, box shadow, and appropriate padding.
+   - Responsive design with media queries to adjust the layout for different screen sizes.
+   - Styling the footer with a specific font-family and text-align.
+
+3. JavaScript Functionality:
+   - Use of `document.addEventListener` to wait for the DOM content to be fully loaded before executing JavaScript code.
+   - Event listener attached to the "Roll" button (`#roll`).
+   - Generation of random numbers (representing dice faces) using `Math.random()` and `Math.floor()`.
+   - Concatenation of random numbers to form image source paths.
+   - Updating the `src` and `alt` attributes of two `<img>` elements based on the generated random numbers.
+   - Incorporation of proper alt text for accessibility.
+
+4. Overall Design and User Experience:
+   - The project has a cohesive design with a specific color scheme and font choices.
+   - The layout is responsive, adapting to different screen sizes for a better user experience.
+   - Clear and concise alt text is provided for images to enhance accessibility.
+
+5. Version Control:
+   - The project includes a link to the GitHub profile of the developer (`<a href="https://github.com/foguibe">Fortune Oguibe</a>`), demonstrating transparency and collaboration.
+
+6. Documentation:
+   - The code includes comments to explain the purpose of certain sections, making it more readable and maintainable.
+
+In summary, this project showcases a well-rounded set of skills, including HTML structure, CSS styling for aesthetics and responsiveness, JavaScript for interactivity, and attention to accessibility and user experience.
